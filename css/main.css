@@ -153,11 +153,9 @@ ul
 	color: #fff;
 }
 
-.gray-section .article-preview .img-section
+.img-section
 {
-	width: 45%;
-	height:100px;
-	background: red;
+	width: 45%;	
 }
 .img-section img{		
 	width: 100%;
@@ -165,8 +163,7 @@ ul
 
 .gray-section .text-section
 {
-	width: 55%;	
-	background: yellow;
+	width: 55%;		
 	height: 100px;
 }
 
@@ -186,12 +183,14 @@ ul
 	content:"";
 	display: block;
 	clear: both;
+	margin-bottom: 10px;
 }
 .text-section
 {
 	position: relative;
 	top:68px;
 	left:50px;
+	width: 50%;
 }
 
 .text-section > div 
