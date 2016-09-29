@@ -58,13 +58,16 @@ nav ul li.logo {
 }
 
 #banner .inner h1 {
+	color: white;
 	margin: 0;
 }
+
 
 button {
 	border: none;
 	background: #333;
 	color: #eee;
+	font-weight: 500;
 }
 
 #banner button {
@@ -138,10 +141,16 @@ p
 {
 	font-size: 18px;
 	letter-spacing: 1px;
+	color: white;
 }
 ul
 {
 	margin: 0;
+}
+
+.article h1
+{
+	
 }
 
 .sub-heading {
@@ -191,6 +200,7 @@ ul
 	top:68px;
 	left:50px;
 	width: 50%;
+	color: white;
 }
 
 .text-section > div 
@@ -305,4 +315,54 @@ ul.share-group
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+}
+
+.mask
+{
+	position: fixed;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+	display: none;
+}
+.sidebar
+{	
+	position: fixed;
+	top: 0;
+	right: -300px;
+	bottom: 0;
+	width: 300px;
+	background: #333;	
+	padding: 20px 0px;
+	transition:right 0.5s;
+}
+
+.sidebar ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar ul a
+{
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	width: 100%;
+	text-decoration: none;
+}
+.sidebar ul a:hover
+{
+	background: #444;
+}
+
+.back-to-top
+{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border:1px solid #888;
 }
